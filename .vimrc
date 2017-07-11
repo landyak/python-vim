@@ -1,6 +1,7 @@
+ 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
-let &termencoding=&encoding
-set fileencodings=utf-8,gbk
+set fileencodings=utf-8,gbk,ucs-bom,bg18080,gb2312,cp936
+set termencoding=utf-8
 set encoding=utf-8
 
 set nocompatible
