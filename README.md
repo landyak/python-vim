@@ -27,3 +27,11 @@ add my first vim configure file for python
 3. Run at Vim's command line:
 
    :helptags ~/.vim/bundle/ctrlp.vim/doc
+
+#Install color schema "vim-colors-solarized"
+
+1. add line to .vimrc 
+
+   Plugin 'altercation/vim-colors-solarized'
+
+2. run :VundleInstall 

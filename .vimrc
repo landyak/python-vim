@@ -12,7 +12,6 @@ call vundle#begin()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plugin 'gmarik/vundle'
 
-
 Plugin 'scrooloose/nerdtree'
 let NERDTreeWinPos='right'
 let NERDTreeWinSize=30
@@ -20,9 +19,11 @@ map <F2> :NERDTreeToggle<CR>
 
 Plugin 'python-mode/python-mode'
 
-
 Plugin 'bling/vim-airline'
 set laststatus=2
+
+Plugin 'altercation/vim-colors-solarized' 
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 call vundle#end()
 filetype plugin indent on
