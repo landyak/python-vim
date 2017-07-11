@@ -1,8 +1,8 @@
- 
-set runtimepath^=~/.vim/bundle/ctrlp.vim
-set fileencodings=utf-8,gbk,ucs-bom,bg18080,gb2312,cp936
 set termencoding=utf-8
+set fileencodings=utf-8,gbk,ucs-bom,bg18080,gb2312,cp936
 set encoding=utf-8
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 set nocompatible
 filetype off
@@ -19,6 +19,7 @@ let NERDTreeWinSize=30
 map <F2> :NERDTreeToggle<CR>	"<F2>键打开
 
 Plugin 'python-mode/python-mode'
+let g:pymode_python = 'python3'
 
 Plugin 'kien/ctrlp.vim'
 
