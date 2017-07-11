@@ -15,12 +15,16 @@ Plugin 'gmarik/vundle'
 Plugin 'scrooloose/nerdtree'
 let NERDTreeWinPos='right'
 let NERDTreeWinSize=30
-map <F2> :NERDTreeToggle<CR>
+map <F2> :NERDTreeToggle<CR>	"<F2>键打开
 
 Plugin 'python-mode/python-mode'
 
-Plugin 'bling/vim-airline'
-set laststatus=2
+Plugin 'kien/ctrlp.vim'
+
+Plugin 'vim-airline/vim-airline'
+set laststatus=2  "永远显示状态栏
+set t_Co=256      "在windows中用xshell连接打开vim可以显示色彩
+let g:airline#extensions#tabline#enabled = 1 "默认是关闭的，打开后可以显示窗口tab和buffe
 
 Plugin 'altercation/vim-colors-solarized' 
 
