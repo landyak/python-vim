@@ -1,3 +1,8 @@
+"如果在tmux中使用vim，需要配置如下的终端类型
+if exists('$TMUX')
+	set  term=screen-256color
+endif
+
 set termencoding=utf-8
 set fileencodings=utf-8,gbk,ucs-bom,bg18080,gb2312,cp936
 set encoding=utf-8
