@@ -23,8 +23,8 @@ let NERDTreeWinPos='right'
 let NERDTreeWinSize=30
 map <F2> :NERDTreeToggle<CR>	"<F2>键打开
 
-"Plugin 'python-mode/python-mode'
-
+Plugin 'python-mode/python-mode'
+    
 Plugin 'kien/ctrlp.vim'
 
 Plugin 'vim-airline/vim-airline'
