@@ -15,14 +15,14 @@ add my first vim configure file for python
 
 1. Clone the plugin into a separate directory:
 
-   $ cd ~/.vim
-   $ git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
-   Or if you prefer Mercurial:
-   $ hg clone https://bitbucket.org/kien/ctrlp.vim bundle/ctrlp.vim
+  > $ cd ~/.vim
+  > $ git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
+  > Or if you prefer Mercurial:
+  > $ hg clone https://bitbucket.org/kien/ctrlp.vim bundle/ctrlp.vim
 
 2. Add to your ~/.vimrc:
 
-   set runtimepath^=~/.vim/bundle/ctrlp.vim
+  > set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 3. Run at Vim's command line:
 
@@ -32,6 +32,6 @@ add my first vim configure file for python
 
 1. add line to .vimrc 
 
-   Plugin 'altercation/vim-colors-solarized'
+  > Plugin 'altercation/vim-colors-solarized'
 
 2. run :VundleInstall 
