@@ -3,7 +3,7 @@
 vim configure file
 add my first vim configure file for python
 
-#Installl vundle for vim
+# Installl vundle for vim
 
 1. 在~/目录下面创建 .vim 目录，然后再创建 .vim/bundle
 
@@ -11,7 +11,7 @@ add my first vim configure file for python
 
 3. 在 ~/.vimrc这个文件的头部加上配置
 
-#Install ctrlp for vim
+# Install ctrlp for vim
 
 1. Clone the plugin into a separate directory:
 
@@ -28,7 +28,7 @@ add my first vim configure file for python
 
    :helptags ~/.vim/bundle/ctrlp.vim/doc
 
-#Install color schema "vim-colors-solarized"
+# Install color schema "vim-colors-solarized"
 
 1. add line to .vimrc 
 
